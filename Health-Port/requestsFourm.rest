@@ -1,0 +1,14 @@
+POST http://localhost:5000/api/forum/create 
+Content-Type: application/json
+
+{
+    "title":"General",
+    "desc":"General Discussion forum",
+    "url":"https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+}
+
+###
+GET http://localhost:5000/api/forum
+
+###
+GET http://localhost:5000/api/forum/5f36911a1ef4f52c7cce8d15
